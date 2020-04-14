@@ -1,8 +1,14 @@
 /*font Variables*/
-$mon: "Montserrat", sans-serif;
-$open: "Open Sans", sans-serif;
-$pt: "PT Sans", sans-serif;
-
+// $mon: "Montserrat", sans-serif;
+// $open: "Open Sans", sans-serif;
+// $pt: "PT Sans", sans-serif;
+$open: "Libre Franklin", sans-serif;
+$pt: "LibreFranklin", sans-serif;
+$mon: "LibreFranklin", sans-serif;
+strong{
+  font-family: "LibreFranklin", sans-serif;
+  font-weight: 700;
+}
 /*Color Variables*/
 $baseColor: #ffcd00;
 $dip: #31353d;
@@ -10,8 +16,7 @@ $blue: #000033;
 $pfont: #444444;
 $gray: #afafaf;
 $dw: #e8e8e8;
-
-.font_bold{
+.font_bold {
   font-weight: bolder;
 }
 // Mixins
