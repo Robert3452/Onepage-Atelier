@@ -8,7 +8,7 @@
     width: calc(50% + 80px);
     float: left;
     overflow: hidden;
-    height: 900px;
+    min-height: 900px;
     background: url(../img/service-bg.png) no-repeat scroll center center;
     background-size: cover;
     .left_service_inner {
