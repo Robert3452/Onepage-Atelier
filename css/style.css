@@ -1568,6 +1568,9 @@ iframe {
       right: 50px;
       bottom: -60%;
       content: close-quote; }
+    @media only screen and (max-width: 768px) {
+      .testimonials_slider .item .testi_left blockquote::after {
+        bottom: -10%; } }
     .testimonials_slider .item .testi_left:before {
       content: "";
       font-family: "Libre Franklin", sans-serif;

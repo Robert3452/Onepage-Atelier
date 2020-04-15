@@ -197,6 +197,12 @@
         bottom: -60%;
         content: close-quote;
       }
+      @media only screen and (max-width: 768px) {
+        blockquote::after {
+            bottom:-10%;
+        }
+      }
+
       &:before {
         content: "";
         font-family: $mon;
