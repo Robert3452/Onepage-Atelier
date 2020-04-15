@@ -1,12 +1,17 @@
 /* Counter area css
 ============================================================================================ */
 .counter_area{
-    background: #31353d;
+    background: $blue;
     padding: 60px 0px;
+   
 }
 .counter_item{
     text-align: center;
+
     color: $dw;
+    img{
+        width: 70px;
+    }
     i{
         font-size: 40px;
     }
@@ -15,6 +20,7 @@
         font-family: $open; 
         font-weight: 600;
         padding: 13px 0px 10px 0px;
+        display: inline-block;
     }
     h5{
         font-size: 16px;

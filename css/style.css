@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*----------------------------------------------------
 @File: Default Styles
 @Author: Rocky Ahmed
@@ -43,7 +44,7 @@ Table of Content:
 /*font Variables*/
 @import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,300i,400,400i,500,500i,600,700,800,900|Open+Sans:300,400,400i,600,600i,700,800|PT+Sans:400,400i,700,700i");
 strong {
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: 700; }
 
 /*Color Variables*/
@@ -122,10 +123,9 @@ iframe {
 ============================================================================================ */
 .main_w_title h2 {
   font-size: 40px;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #31353d;
   font-weight: bold;
-  text-transform: uppercase;
   position: relative;
   z-index: 2; }
   .main_w_title h2:before {
@@ -139,7 +139,7 @@ iframe {
     z-index: -1; }
 .main_w_title h6 {
   font-size: 15px;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #ffcd00;
   font-weight: bold;
   padding-top: 12px; }
@@ -151,7 +151,7 @@ iframe {
 .main_b_title h2 {
   font-size: 40px;
   padding-top: 28px;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #e8e8e8;
   font-weight: bold;
   text-transform: uppercase;
@@ -170,7 +170,7 @@ iframe {
     z-index: -1; }
 .main_b_title h6 {
   font-size: 15px;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   color: #ffcd00;
   font-weight: bold;
   padding-top: 12px; }
@@ -183,7 +183,7 @@ iframe {
   text-align: center; }
   .main_c_title h2 {
     font-size: 40px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #000033;
     font-weight: bold;
     position: relative;
@@ -205,7 +205,7 @@ iframe {
       z-index: -1; }
   .main_c_title h6 {
     font-size: 18px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #e8e8e8;
     font-weight: bold;
     padding-top: 12px; }
@@ -214,7 +214,7 @@ iframe {
   text-align: center; }
   .main_c_b_title h2 {
     font-size: 40px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #31353d;
     font-weight: bold;
     text-transform: uppercase;
@@ -232,7 +232,7 @@ iframe {
       z-index: -1; }
   .main_c_b_title h6 {
     font-size: 15px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #ffcd00;
     font-weight: bold;
     padding-top: 12px; }
@@ -245,7 +245,7 @@ iframe {
   text-align: right; }
   .main_b_r_title h2 {
     font-size: 40px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #31353d;
     font-weight: bold;
     text-transform: uppercase;
@@ -261,7 +261,7 @@ iframe {
       z-index: -1; }
   .main_b_r_title h6 {
     font-size: 15px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #ffcd00;
     font-weight: bold;
     padding-top: 12px; }
@@ -272,7 +272,7 @@ iframe {
 ============================================================================================ */
 .out_title {
   font-size: 25px;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: bold;
   color: #31353d;
   text-align: center; }
@@ -379,7 +379,7 @@ iframe {
       .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li a {
         padding: 0px;
         font-size: 14px;
-        font-family: "LibreFranklin", sans-serif;
+        font-family: "Libre Franklin", sans-serif;
         font-weight: bold;
         text-transform: uppercase;
         color: #000033;
@@ -445,7 +445,7 @@ iframe {
           .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu .dropdown-menu li a {
             line-height: 45px;
             color: #494848;
-            font-family: "LibreFranklin", sans-serif;
+            font-family: "Libre Franklin", sans-serif;
             font-weight: normal;
             font-size: 16px;
             padding: 0px 30px;
@@ -501,12 +501,12 @@ iframe {
   color: #ffcd00;
   text-transform: uppercase;
   font-weight: bold !important;
-  font-family: "LibreFranklin", sans-serif; }
+  font-family: "Libre Franklin", sans-serif; }
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .first_text {
   color: #ffcd00;
   text-transform: uppercase;
   font-weight: bold !important;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   word-wrap: break-word !important; }
 .main_slider_area .rev_slider .tp-revslider-mainul li .slider_text_box2 .secand_text {
   color: #fff;
@@ -711,7 +711,7 @@ iframe {
   border-radius: 5px;
   line-height: 28px;
   color: #afafaf;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-size: 12px;
   transition: all 400ms linear 0s; }
   .view_btn:hover {
@@ -1020,7 +1020,7 @@ iframe {
   max-width: 530px; }
   .pre_hover h4 {
     font-size: 25px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-weight: bold;
     color: #ffcd00; }
   .pre_hover p {
@@ -1165,7 +1165,7 @@ iframe {
             font-size: 12px;
             line-height: 18px;
             color: #444444;
-            font-family: "LibreFranklin", sans-serif;
+            font-family: "Libre Franklin", sans-serif;
             padding-bottom: 10px; }
           .our_service_area .left_service .left_service_inner .service_item .service_item_inner .view_btn {
             opacity: 0; }
@@ -1212,7 +1212,7 @@ iframe {
 
 .b_companu_l_text h4 {
   font-size: 30px;
-  font-family: "LibreFranklin", sans-serif;
+  font-family: "Libre Franklin", sans-serif;
   font-weight: bold;
   color: #343434;
   text-transform: uppercase; }
@@ -1264,7 +1264,7 @@ iframe {
       .service2_inner .service2_item .service2_item_inner h4 {
         font-size: 18px;
         color: #000033;
-        font-family: "LibreFranklin", sans-serif;
+        font-family: "Libre Franklin", sans-serif;
         font-weight: bold;
         padding: 20px 0px 18px 0px;
         text-transform: uppercase; }
@@ -1490,7 +1490,8 @@ iframe {
     left: 0px;
     top: -110px;
     z-index: 5; }
-    .team_slider .owl-nav .owl-prev, .team_slider .owl-nav .owl-next {
+    .team_slider .owl-nav .owl-prev,
+    .team_slider .owl-nav .owl-next {
       display: inline-block;
       font-size: 40px;
       border: 1px solid #31353d;
@@ -1501,7 +1502,8 @@ iframe {
       text-align: center;
       transition: all 400ms linear 0s;
       z-index: 5; }
-      .team_slider .owl-nav .owl-prev:hover, .team_slider .owl-nav .owl-next:hover {
+      .team_slider .owl-nav .owl-prev:hover,
+      .team_slider .owl-nav .owl-next:hover {
         background: #ffcd00;
         border-color: #ffcd00;
         color: #fff; }
@@ -1516,48 +1518,89 @@ iframe {
   padding: 90px 0px;
   background: #f5f5f5; }
   .testimonials_area .main_w_title {
-    margin-top: 70px; }
-    .testimonials_area .main_w_title h2:before {
-      border-color: #e2e2e2; }
+    margin-top: 0px; }
+    .testimonials_area .main_w_title h2 {
+      padding-top: 20px;
+      position: relative;
+      font-size: 50px; }
+      .testimonials_area .main_w_title h2:before {
+        border-color: #e2e2e2;
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 65%;
+        height: 30%;
+        border-bottom: 0px; }
+    .testimonials_area .main_w_title h6 {
+      font-size: 20px; }
 
-.testimonials_slider .item .testi_left {
-  max-width: 570px;
-  display: inline-block;
-  background: #ffcd00;
-  float: left;
+.testimonials_slider .item {
   min-height: 205px;
-  padding: 20px 15px 20px 50px;
-  position: relative; }
-  .testimonials_slider .item .testi_left:before {
-    content: "";
-    position: absolute;
-    right: -47px;
-    top: 0px;
-    width: 0;
-    height: 0;
-    border-style: solid;
-    border-width: 205px 0 0 47px;
-    border-color: transparent transparent transparent #ffcd00; }
-  .testimonials_slider .item .testi_left i {
-    font-size: 30px;
-    color: #31353d; }
-  .testimonials_slider .item .testi_left p {
-    font-family: "Libre Franklin", sans-serif;
-    font-size: 17px;
-    line-height: 26px;
-    color: #444444;
-    padding: 8px 0px 20px 0px; }
-  .testimonials_slider .item .testi_left h4 {
-    font-family: "Libre Franklin", sans-serif;
-    font-size: 17px;
-    line-height: 26px;
-    color: #444444; }
-.testimonials_slider .item .testi_right {
-  display: inline-block;
-  max-width: 160px; }
-  .testimonials_slider .item .testi_right img {
-    max-width: 100%;
-    width: auto; }
+  max-height: 400px; }
+  .testimonials_slider .item .testi_left {
+    max-width: 570px;
+    display: inline-block;
+    background: #ffcd00;
+    float: left;
+    min-height: 205px;
+    padding: 20px 15px 20px 50px;
+    position: relative; }
+    .testimonials_slider .item .testi_left blockquote {
+      quotes: "“" "”";
+      border-left: 0px;
+      margin: 0;
+      position: relative; }
+    .testimonials_slider .item .testi_left blockquote::before {
+      content: open-quote;
+      font-size: 100px;
+      color: #000033;
+      font-weight: 900;
+      top: 25px;
+      position: absolute;
+      left: 0px; }
+    .testimonials_slider .item .testi_left blockquote::after {
+      font-size: 100px;
+      font-family: "Libre Franklin", sans-serif;
+      color: #000033;
+      font-style: italic;
+      font-weight: 900;
+      position: absolute;
+      right: 50px;
+      bottom: -60%;
+      content: close-quote; }
+    .testimonials_slider .item .testi_left:before {
+      content: "";
+      font-family: "Libre Franklin", sans-serif;
+      position: absolute;
+      right: -47px;
+      top: 0px;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 205px 0 0 47px;
+      border-color: transparent transparent transparent #ffcd00; }
+    .testimonials_slider .item .testi_left h2 {
+      font-family: "Libre Franklin", sans-serif; }
+    .testimonials_slider .item .testi_left i {
+      font-size: 30px;
+      color: #fff; }
+    .testimonials_slider .item .testi_left blockquote {
+      font-family: "Libre Franklin", sans-serif;
+      font-size: 17px;
+      line-height: 26px;
+      color: #fff;
+      padding: 8px 0px 20px 0px; }
+    .testimonials_slider .item .testi_left h4 {
+      font-family: "Libre Franklin", sans-serif;
+      font-size: 17px;
+      line-height: 26px;
+      color: #fff; }
+  .testimonials_slider .item .testi_right {
+    display: inline-block;
+    max-width: 160px; }
+    .testimonials_slider .item .testi_right img {
+      max-width: 100%;
+      object-fit: cover; }
 .testimonials_slider .owl-dots {
   position: absolute;
   right: 0px;
@@ -1629,19 +1672,22 @@ iframe {
 /* Counter area css
 ============================================================================================ */
 .counter_area {
-  background: #31353d;
+  background: #000033;
   padding: 60px 0px; }
 
 .counter_item {
   text-align: center;
   color: #e8e8e8; }
+  .counter_item img {
+    width: 70px; }
   .counter_item i {
     font-size: 40px; }
   .counter_item h4 {
     font-size: 35px;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 600;
-    padding: 13px 0px 10px 0px; }
+    padding: 13px 0px 10px 0px;
+    display: inline-block; }
   .counter_item h5 {
     font-size: 16px;
     font-family: "Libre Franklin", sans-serif;
@@ -1741,7 +1787,7 @@ iframe {
 /* Clients area css
 ============================================================================================ */
 .clients_area {
-  background: #f5f5f5;
+  background: #fff;
   padding: 90px 0px; }
 
 .clients_slider .item {
@@ -1922,7 +1968,7 @@ iframe {
   .r_w_title h3 {
     font-size: 16px;
     color: #444444;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     text-transform: uppercase;
     position: relative; }
     .r_w_title h3:before {
@@ -1944,7 +1990,7 @@ iframe {
   .r_post_widget .r_post_inner .r_post_item p {
     font-size: 15px;
     color: #444444;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-style: italic;
     line-height: 20px;
     padding-top: 12px; }
@@ -2028,7 +2074,7 @@ iframe {
   .blog_d_text h3 {
     font-size: 20px;
     text-transform: uppercase;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     color: #31353d;
     font-weight: bold;
     padding: 30px 0px 40px 0px; }
@@ -2271,7 +2317,7 @@ iframe {
   text-align: center; }
   .banner_inner_text h4 {
     font-size: 35px;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-weight: bold;
     color: #fff;
     padding-bottom: 3px; }
@@ -2354,7 +2400,7 @@ iframe {
         .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content h4 {
           font-size: 22px;
           text-transform: uppercase;
-          font-family: "LibreFranklin", sans-serif;
+          font-family: "Libre Franklin", sans-serif;
           font-weight: bold !important;
           color: #000033;
           text-transform: uppercase;
@@ -2366,7 +2412,7 @@ iframe {
         .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content p {
           font-size: 12px;
           color: #e8e8e8;
-          font-family: "LibreFranklin", sans-serif;
+          font-family: "Libre Franklin", sans-serif;
           line-height: 22px;
           padding: 15px 0px 25px 0px;
           opacity: 0;
@@ -2428,7 +2474,7 @@ iframe {
         .project_item .project_hover .project_hover_inner .project_hover_content h4 {
           font-size: 14px;
           text-transform: uppercase;
-          font-family: "LibreFranklin", sans-serif;
+          font-family: "Libre Franklin", sans-serif;
           font-weight: bold;
           color: #e8e8e8;
           opacity: 0;
@@ -2439,7 +2485,7 @@ iframe {
         .project_item .project_hover .project_hover_inner .project_hover_content p {
           font-size: 12px;
           color: #000033;
-          font-family: "LibreFranklin", sans-serif;
+          font-family: "Libre Franklin", sans-serif;
           line-height: 22px;
           padding: 15px 0px 25px 0px;
           opacity: 0;
@@ -2477,7 +2523,7 @@ iframe {
 /* Work area css
 ============================================================================================ */
 .work_area {
-  background: url(../img/work-bg.jpg) no-repeat scroll center center;
+  background: url(../assets/img/imágenes/imagen-trabaja-con-nosotros.png) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   z-index: 2;
@@ -2519,7 +2565,7 @@ iframe {
     font-size: 18px;
     text-transform: uppercase;
     color: #000033;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-weight: bold;
     padding: 25px 0px 15px 0px;
     transition: all 400ms linear 0s; }
@@ -2585,7 +2631,7 @@ iframe {
       padding: 0px 80px 0px 80px; }
       .our_project2_area.our_project_two_column .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content h4 {
         font-size: 25px;
-        font-family: "LibreFranklin", sans-serif; }
+        font-family: "Libre Franklin", sans-serif; }
       .our_project2_area.our_project_two_column .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content p {
         font-size: 18px;
         color: #444444;
@@ -2613,7 +2659,7 @@ iframe {
       margin-bottom: 30px; }
       .our_project2_area.project_grid_two .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content h4 {
         font-size: 25px;
-        font-family: "LibreFranklin", sans-serif; }
+        font-family: "Libre Franklin", sans-serif; }
       .our_project2_area.project_grid_two .our_project_details .project_item .project_hover .project_hover_inner .project_hover_content p {
         font-size: 18px;
         color: #444444;
@@ -2686,7 +2732,7 @@ iframe {
     font-size: 24px;
     font-weight: bold;
     text-transform: uppercase;
-    font-family: "LibreFranklin", sans-serif;
+    font-family: "Libre Franklin", sans-serif;
     font-weight: bold;
     color: #ffcd00; }
 
