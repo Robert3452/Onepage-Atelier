@@ -239,10 +239,13 @@
     }
     .testi_right {
       display: inline-block;
-      max-width: 160px;
+      max-width: 150px;
+      height:205px;
+
       img {
         max-width: 100%;
-        object-fit: cover;
+        object-fit: contain;
+        height:205px;
       }
     }
   }

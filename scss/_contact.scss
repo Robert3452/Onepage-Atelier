@@ -66,6 +66,11 @@
     .media{
         .media-left{
             padding-right: 25px;
+            img{
+                width: 70px;
+                height:70px ;
+                object-fit: contain;
+            }
         }
         .media-body{
             vertical-align: middle;
@@ -73,13 +78,13 @@
                 font-size: 22px;
                 font-family: $open;
                 font-weight: 600;
-                color: $pfont;
+                color: $blue;
             }
             h5{
                 font-size: 18px;
                 font-family: $open;
-                font-weight: 600;
-                color: $pfont;
+                font-weight: 400;
+                color: $blue;
                 padding-top: 7px;
             }
         }

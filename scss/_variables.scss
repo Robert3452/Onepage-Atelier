@@ -5,6 +5,9 @@
 $open: "Libre Franklin", sans-serif;
 $pt: "Libre Franklin", sans-serif;
 $mon: "Libre Franklin", sans-serif;
+html {
+  scroll-behavior: smooth;
+}
 strong{
   font-family: "Libre Franklin", sans-serif;
   font-weight: 700;
@@ -28,7 +31,11 @@ $dw: #e8e8e8;
 ) {
   transition: $property $duration $animate $delay;
 }
-
+.who_we_image{
+  img{
+    width: 100%;
+  }
+}
 // Placeholder Mixins
 @mixin placeholder {
   &.placeholder {
