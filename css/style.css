@@ -414,7 +414,7 @@ iframe {
             font-weight: normal;
             text-align: center; }
       .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li:hover a, .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.active a {
-        color: #ffcd00; }
+        color: #ffcd00 !important; }
       .main_menu_area .navbar.navbar-default .nav.navbar-nav.navbar-right li.submenu {
         position: relative; }
         @media (min-width: 992px) {
@@ -1174,8 +1174,8 @@ iframe {
             font-weight: bold;
             padding: 13px 0px 8px 0px; }
           .our_service_area .left_service .left_service_inner .service_item .service_item_inner p {
-            font-size: 12px;
-            line-height: 18px;
+            font-size: 14px;
+            line-height: initial;
             color: #444444;
             font-family: "Libre Franklin", sans-serif;
             padding-bottom: 10px; }
@@ -2367,7 +2367,7 @@ iframe {
     .banner_inner_text ul li:last-child a:before {
       display: none; }
     .banner_inner_text ul li:hover a, .banner_inner_text ul li.active a {
-      color: #ffcd00; }
+      color: #ffcd00 !important; }
 
 /* Clients area css
 ============================================================================================ */
@@ -2868,6 +2868,23 @@ iframe {
 
 /* End Footer area css
 ============================================================================================ */
+/*---------------------------------------------------- */
+.map-style {
+  width: 100%;
+  height: 400px; }
+  .map-style iframe {
+    width: 100%;
+    height: 100%; }
+
+.logo-responsive {
+  width: 130px !important; }
+
+@media only screen and (max-width: 768px) {
+  .logo-responsive {
+    width: 100px !important; } }
+@media only screen and (max-width: 425px) {
+  .logo-responsive {
+    width: 80px !important; } }
 /*---------------------------------------------------- */
 
 /*# sourceMappingURL=style.css.map */

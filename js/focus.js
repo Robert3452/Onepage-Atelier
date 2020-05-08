@@ -1,8 +1,8 @@
 
 
-$(document).ready(function(){
-    $('#nav').onePageNav();
+// $(document).ready(function(){
+//     $('#nav').onePageNav();
 
 
    
- });
+//  });

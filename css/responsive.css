@@ -245,7 +245,7 @@
 		margin-top: 30px;
 	}
 }
-@media(max-width: 767px){
+@media(max-width: 768px){
 	.recent_w_inner .media .media-body{
 		vertical-align: middle;
 	}

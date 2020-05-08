@@ -54,7 +54,7 @@
             }
             &:hover, &.active{
                 a{
-                    color: $baseColor;
+                    color: $baseColor!important;
                 }
             }
         }
