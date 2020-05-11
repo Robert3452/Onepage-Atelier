@@ -2557,7 +2557,7 @@ iframe {
   padding: 100px 0px 60px 0px; }
   .work_area:before {
     content: "";
-    background: rgba(255, 230, 6, 0.9);
+    background: #ffcc00f3;
     position: absolute;
     left: 0px;
     top: 0px;
