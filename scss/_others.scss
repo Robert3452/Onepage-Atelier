@@ -14,8 +14,25 @@
     margin-right: auto;
     margin-left: auto;
 }
-
-
+//Stilos de modal extra
+.modal-header {
+    display: flex;
+    .close{
+        margin-left: auto;
+    }
+}
+.modal_title{
+    text-align:center;
+    font-size: 20px;
+    font-weight: 600;
+}
+.modal-dialog *{
+    border-radius: 0px;
+    .btn-primary{
+        border: 1px $baseColor solid;
+        background-color: $baseColor ;
+    }
+}
 @media only screen and (max-width: 768px) {
     .logo-responsive{
         width:100px!important;

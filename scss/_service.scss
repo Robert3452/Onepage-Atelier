@@ -1,7 +1,7 @@
 /* Our Service area css
 ============================================================================================ */
 .our_service_area {
-  background: $blue;
+  background: $bgcolor;
   overflow: hidden;
   clear: both;
   .left_service {
@@ -9,7 +9,7 @@
     float: left;
     overflow: hidden;
     min-height: 900px;
-    background: url(../assets/img/imagenes/edificio-en-construccion.png) no-repeat scroll center center;
+    background: url(../assets/img/imagenes/edificio-en-construccion.jpg) no-repeat scroll center center;
     background-size: cover;
     .left_service_inner {
       max-width: 635px;
@@ -50,7 +50,7 @@
             font-size: 18px;
             font-family: $open;
             font-weight: bold;
-            color: $blue;
+            color: $bgcolor;
             text-transform: uppercase;
             font-weight: bold;
             padding: 13px 0px 8px 0px;
@@ -190,7 +190,7 @@
 
       h4 {
         font-size: 18px;
-        color: $blue;
+        color: $bgcolor;
         font-family: $mon;
         font-weight: bold;
         padding: 20px 0px 18px 0px;
@@ -198,7 +198,7 @@
       }
       p {
         font-size: 15px;
-        color: $blue;
+        color: $bgcolor;
         line-height: 26px;
         font-family: $open;
         transition: all 200ms linear;
@@ -211,7 +211,7 @@
     &:hover {
       .service2_item_inner {
         transform: rotateY(180deg);
-        background: $blue;
+        background: $bgcolor;
         .service2_item_inner_content {
           transform: rotateY(-180deg);
           .service_icon {

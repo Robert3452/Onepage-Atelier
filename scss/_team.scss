@@ -180,7 +180,7 @@
       blockquote::before {
         content: open-quote;
         font-size: 100px;
-        color: $blue;
+        color: $bgcolor;
         font-weight: 900;
         top: 25px;
         position: absolute;
@@ -189,7 +189,7 @@
       blockquote::after {
         font-size: 100px;
         font-family: $mon;
-        color: $blue;
+        color: $bgcolor;
         font-style: italic;
         font-weight: 900;
         position: absolute;

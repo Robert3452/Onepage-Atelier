@@ -14,7 +14,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-	<link rel="icon" href="http://atelier570.com/assets/icon/favicon-570-marco.png" type="image/png" />
+	<link rel="icon" href="https://atelier570.com/assets/icon/favicon-570-marco.png" type="image/png" />
 
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>Atelier, proyectos de construcción</title>
@@ -67,7 +67,7 @@
     <meta property="og:image:width" content="400" />
     <meta property="og:image:height" content="300" />
 
-    <meta name="copyright" content="Fyfsa Peru" />
+    <meta name="copyright" content="Atelier570 Peru" />
     <!-- Extra plugin css -->
     <link href="css/style.css" rel="stylesheet">
     <link href="css/responsive.css" rel="stylesheet">
@@ -274,6 +274,20 @@
                     </div>
                 </div>
                 <div class="service_item">
+                    <div class="service_item_inner">
+                        <div class="service_icon">
+                            <img src="assets/icon/04_service_saneamiento_fisico_legal.png" width="30%" alt="">
+                            <img src="assets/icon/04_service_saneamiento_fisico_legal_white.png" width="30%" alt="">
+                        </div>
+                        <a href="#projects">
+                            <h4>SANEAMIENTO FÍSICO LEGAL</h4>
+                        </a> 
+                        <p>Contamos con personal legal y técnico para brindarle un servicio
+                            integral, desde el <strong> diagnóstico y saneamiento</strong> , a fin que su predio se
+                            encuentre limpio de cualquier carga o irregularidad, que lo limite poder
+                            transferirlo.</p>
+                        <a class="view_btn" href="#projects">¿Qué incluye?</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -388,7 +402,7 @@
                             </div>
                         </div>
                         <div class="project_item design building plumbing tiling">
-                            <img src="assets/img/imagenes/proyecto-ejecucion.jpg" alt="">
+                            <img src="assets/img/imagenes/proyecto-en-construccion.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
@@ -419,10 +433,57 @@
                 </div>
                 <p>En Atelier 570 realizamos todas las contrataciones y gestión en proyectos de construcción, diseño
                     arquitectónico y mantenimiento.</p>
-                <a class="get_btn" href="#">SOLICITAR COTIZACIÓN </a>
+                <a class="get_btn" data-toggle="modal" data-target="#exampleModal"  href="#">SOLICITAR COTIZACIÓN </a>
             </div>
         </div>
     </section>
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title modal_title" id="exampleModalLabel">¡Solicita tu cotización ya!</h5>
+              
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <p>Rellena los datos para solicitar una cotización</p>
+                <br>
+              <form>
+                <div class="form-group">
+                    <label for="name" class="col-form-label" >Nombres:</label>
+                    <input type="text" name="name" placeholder="ej. Julia Ramirez" class="form-control" id="name" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="phone_number" class="col-form-label">Nro Teléfono 📱:</label>
+                    <input type="text" name="phone_number" placeholder="ej. 945 123 123" class="form-control" id="phone" required>
+                  </div>
+                <div class="form-group">
+                  <label for="email" class="col-form-label">Correo electrónico 📨:</label>
+                  <input type="email" name="email" placeholder="example@mail.com" class="form-control" id="email" required>
+                </div>
+                <div class="form-group">
+                  <label for="service" class="col-form-label">Pregunta por un servicio 🌇:</label>
+                    <select name="service" class="form-control">
+                        <option>Servicio que Requiere</option>
+                        <option value="Suspension y Direccion">Diseño arquitectónico
+                        </option>
+                        <option value="Reparaicion de Motores">Ejecución de proyectos
+                        </option>
+                        <option value="Caja y Sistema de Embrague">Mantenimiento</option>
+                        <option value="Aire Acondicionado">Saneamiento físico legal</option>
+                    </select>
+                </div>
+              </form>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+              <button type="submit" class="btn btn-primary">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </div>
     <!--================End Work Area =================-->
 
 

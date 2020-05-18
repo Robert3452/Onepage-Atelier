@@ -131,7 +131,7 @@ iframe {
   font-size: 50px;
   font-family: "Libre Franklin", sans-serif;
   padding-top: 28px;
-  color: #000033;
+  color: #000000;
   font-weight: bold;
   position: relative;
   z-index: 2; }
@@ -192,7 +192,7 @@ iframe {
   .main_c_title h2 {
     font-size: 40px;
     font-family: "Libre Franklin", sans-serif;
-    color: #000033;
+    color: #000000;
     font-weight: bold;
     position: relative;
     padding-top: 8px;
@@ -390,7 +390,7 @@ iframe {
         font-family: "Libre Franklin", sans-serif;
         font-weight: bold;
         text-transform: uppercase;
-        color: #000033;
+        color: #000000;
         line-height: 100px;
         transition: all 400ms linear 0s;
         background: transparent; }
@@ -682,7 +682,7 @@ iframe {
   line-height: 50px;
   font-size: 20px;
   font-family: "Libre Franklin", sans-serif;
-  background-color: #000033;
+  background-color: #000000;
   text-transform: uppercase;
   color: #fff;
   font-weight: bold;
@@ -713,7 +713,7 @@ iframe {
 ============================================================================================ */
 .view_btn {
   display: inline-block;
-  background: #000033;
+  background: #000000;
   text-align: center;
   padding: 0px 20px;
   border-radius: 5px;
@@ -737,7 +737,7 @@ iframe {
   font-size: 20px;
   font-family: "Libre Franklin", sans-serif;
   text-transform: uppercase;
-  color: #000033;
+  color: #000000;
   font-weight: bold;
   background-color: black;
   position: relative;
@@ -855,7 +855,7 @@ iframe {
   .get_quote_area .pull-left h4 {
     font-size: 22px;
     font-family: "Libre Franklin", sans-serif;
-    color: #000033;
+    color: #000000;
     font-weight: 700;
     padding-top: 17px; }
   .get_quote_area.yellow_get_quote {
@@ -906,12 +906,12 @@ iframe {
     font-size: 22px;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 600;
-    color: #000033; }
+    color: #000000; }
   .address_inner .media .media-body h5 {
     font-size: 18px;
     font-family: "Libre Franklin", sans-serif;
     font-weight: 400;
-    color: #000033;
+    color: #000000;
     padding-top: 7px; }
 
 /* End Address area css
@@ -1125,7 +1125,7 @@ iframe {
 /* Our Service area css
 ============================================================================================ */
 .our_service_area {
-  background: #000033;
+  background: #000000;
   overflow: hidden;
   clear: both; }
   .our_service_area .left_service {
@@ -1133,7 +1133,7 @@ iframe {
     float: left;
     overflow: hidden;
     min-height: 900px;
-    background: url(../assets/img/imagenes/edificio-en-construccion.png) no-repeat scroll center center;
+    background: url(../assets/img/imagenes/edificio-en-construccion.jpg) no-repeat scroll center center;
     background-size: cover; }
     .our_service_area .left_service .left_service_inner {
       max-width: 635px;
@@ -1169,7 +1169,7 @@ iframe {
             font-size: 18px;
             font-family: "Libre Franklin", sans-serif;
             font-weight: bold;
-            color: #000033;
+            color: #000000;
             text-transform: uppercase;
             font-weight: bold;
             padding: 13px 0px 8px 0px; }
@@ -1275,14 +1275,14 @@ iframe {
             opacity: 0; }
       .service2_inner .service2_item .service2_item_inner h4 {
         font-size: 18px;
-        color: #000033;
+        color: #000000;
         font-family: "Libre Franklin", sans-serif;
         font-weight: bold;
         padding: 20px 0px 18px 0px;
         text-transform: uppercase; }
       .service2_inner .service2_item .service2_item_inner p {
         font-size: 15px;
-        color: #000033;
+        color: #000000;
         line-height: 26px;
         font-family: "Libre Franklin", sans-serif;
         transition: all 200ms linear; }
@@ -1291,7 +1291,7 @@ iframe {
         visibility: hidden; }
     .service2_inner .service2_item:hover .service2_item_inner {
       transform: rotateY(180deg);
-      background: #000033; }
+      background: #000000; }
       .service2_inner .service2_item:hover .service2_item_inner .service2_item_inner_content {
         transform: rotateY(-180deg); }
         .service2_inner .service2_item:hover .service2_item_inner .service2_item_inner_content .service_icon img {
@@ -1565,7 +1565,7 @@ iframe {
     .testimonials_slider .item .testi_left blockquote::before {
       content: open-quote;
       font-size: 100px;
-      color: #000033;
+      color: #000000;
       font-weight: 900;
       top: 25px;
       position: absolute;
@@ -1573,7 +1573,7 @@ iframe {
     .testimonials_slider .item .testi_left blockquote::after {
       font-size: 100px;
       font-family: "Libre Franklin", sans-serif;
-      color: #000033;
+      color: #000000;
       font-style: italic;
       font-weight: 900;
       position: absolute;
@@ -1689,7 +1689,7 @@ iframe {
 /* Counter area css
 ============================================================================================ */
 .counter_area {
-  background: #000033;
+  background: #000000;
   padding: 60px 0px; }
 
 .counter_item {
@@ -2394,7 +2394,7 @@ iframe {
         font-size: 15px;
         font-family: "Libre Franklin", sans-serif;
         font-weight: 700;
-        color: #000033; }
+        color: #000000; }
 
 .our_project_details .project_item {
   width: calc(100% / 3);
@@ -2429,7 +2429,7 @@ iframe {
           text-transform: uppercase;
           font-family: "Libre Franklin", sans-serif;
           font-weight: bold !important;
-          color: #000033;
+          color: #000000;
           text-transform: uppercase;
           opacity: 0;
           -webkit-transform: translateY(1.5rem);
@@ -2511,7 +2511,7 @@ iframe {
           transition: all 600ms ease; }
         .project_item .project_hover .project_hover_inner .project_hover_content p {
           font-size: 12px;
-          color: #000033;
+          color: #000000;
           font-family: "Libre Franklin", sans-serif;
           line-height: 22px;
           padding: 15px 0px 25px 0px;
@@ -2550,7 +2550,7 @@ iframe {
 /* Work area css
 ============================================================================================ */
 .work_area {
-  background: url(../assets/img/imagenes/imagen-trabaja-con-nosotros.png) no-repeat scroll center center;
+  background: url(../assets/img/imagenes/imagen-trabaja-con-nosotros.jpg) no-repeat scroll center center;
   background-size: cover;
   position: relative;
   z-index: 2;
@@ -2587,11 +2587,11 @@ iframe {
   text-align: center; }
   .f_content_item i {
     font-size: 60px;
-    color: #000033; }
+    color: #000000; }
   .f_content_item h4 {
     font-size: 18px;
     text-transform: uppercase;
-    color: #000033;
+    color: #000000;
     font-family: "Libre Franklin", sans-serif;
     font-weight: bold;
     padding: 25px 0px 15px 0px;
@@ -2628,14 +2628,14 @@ iframe {
         line-height: 45px;
         display: block;
         border-radius: 0px;
-        border-bottom: 1px solid #000033;
+        border-bottom: 1px solid #000000;
         border-top: 1px solid #fff;
         border-left: 1px solid #fff;
         border-right: 1px solid #fff; }
       .our_project2_area .our_project_filter li.active a {
-        border-top: 1px solid #000033;
-        border-left: 1px solid #000033;
-        border-right: 1px solid #000033;
+        border-top: 1px solid #000000;
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
         border-bottom: 1px solid #fff; }
   .our_project2_area .our_project_details {
     margin-bottom: -30px;
@@ -2747,7 +2747,7 @@ iframe {
 /* Footer area css
 ============================================================================================ */
 .footer_widgets_area {
-  background: #000033;
+  background: #000000;
   padding: 70px 0px; }
   .footer_widgets_area.footer_bg {
     background: linear-gradient(0deg, rgba(49, 53, 61, 0.96), rgba(49, 53, 61, 0.96)), url(../img/footer-bg.jpg) no-repeat scroll center center;
@@ -2883,6 +2883,22 @@ iframe {
 .who_we_image img {
   margin-right: auto;
   margin-left: auto; }
+
+.modal-header {
+  display: flex; }
+  .modal-header .close {
+    margin-left: auto; }
+
+.modal_title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600; }
+
+.modal-dialog * {
+  border-radius: 0px; }
+  .modal-dialog * .btn-primary {
+    border: 1px #ffcd00 solid;
+    background-color: #ffcd00; }
 
 @media only screen and (max-width: 768px) {
   .logo-responsive {
