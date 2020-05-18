@@ -33,6 +33,12 @@
         float: left;
         overflow: hidden;
         position: relative;
+        max-height: 300px;
+        img{
+            object-fit: contain;
+            height: 100%;
+            width:100%;
+        }
         .project_hover{
             position: absolute;
             left: 0px;

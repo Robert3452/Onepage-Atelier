@@ -2400,7 +2400,12 @@ iframe {
   width: calc(100% / 3);
   float: left;
   overflow: hidden;
-  position: relative; }
+  position: relative;
+  max-height: 300px; }
+  .our_project_details .project_item img {
+    object-fit: contain;
+    height: 100%;
+    width: 100%; }
   .our_project_details .project_item .project_hover {
     position: absolute;
     left: 0px;
