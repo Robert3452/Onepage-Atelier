@@ -35,9 +35,9 @@
         position: relative;
         max-height: 300px;
         img{
-            object-fit: contain;
-            height: 100%;
-            width:100%;
+            object-fit: cover;
+            height: 282px;
+            width:282px;
         }
         .project_hover{
             position: absolute;

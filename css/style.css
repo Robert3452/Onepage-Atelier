@@ -1146,7 +1146,7 @@ iframe {
         padding-right: 20px;
         padding-bottom: 25px; }
         .our_service_area .left_service .left_service_inner .service_item .service_item_inner {
-          height: 250px;
+          height: 300px;
           box-sizing: content-box;
           background: #fff;
           padding: 35px 10px 30px 10px;
@@ -1188,7 +1188,8 @@ iframe {
               .our_service_area .left_service .left_service_inner .service_item .service_item_inner:hover .service_icon img + img {
                 opacity: 1; }
             .our_service_area .left_service .left_service_inner .service_item .service_item_inner:hover .view_btn {
-              opacity: 1; }
+              opacity: 1;
+              border: 0px; }
         .our_service_area .left_service .left_service_inner .service_item:nth-last-child(-n + 2) {
           padding-bottom: 0px; }
   .our_service_area .right_service {
@@ -1577,8 +1578,8 @@ iframe {
       font-style: italic;
       font-weight: 900;
       position: absolute;
-      right: 50px;
-      bottom: -60%;
+      right: 0px;
+      bottom: -50%;
       content: close-quote; }
     @media only screen and (max-width: 768px) {
       .testimonials_slider .item .testi_left blockquote::after {
@@ -2403,9 +2404,9 @@ iframe {
   position: relative;
   max-height: 300px; }
   .our_project_details .project_item img {
-    object-fit: contain;
-    height: 100%;
-    width: 100%; }
+    object-fit: cover;
+    height: 282px;
+    width: 282px; }
   .our_project_details .project_item .project_hover {
     position: absolute;
     left: 0px;

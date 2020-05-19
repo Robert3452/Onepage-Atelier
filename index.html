@@ -167,8 +167,8 @@
                             data-frames='[{"from":"y:[-100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;","mask":"x:0px;y:0px;s:inherit;e:inherit;","speed":2000,"to":"o:1;","delay":1750,"ease":"Power2.easeInOut"},{"delay":"wait","speed":300,"to":"opacity:0;","ease":"nothing"}]'
                             data-textAlign="['left','left','left','left']" data-paddingtop="[0,0,0,0]"
                             data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]"
-                            data-paddingleft="[45,45,45,45]"><a class="slider_btn" data-toggle="modal" 
-                            data-target="#cotizacionModal" href="#">
+                            data-paddingleft="[45,45,45,45]"><a class="slider_btn" data-toggle="modal"
+                                data-target="#cotizacionModal" href="#">
                                 CONTACTAR</a></div>
                     </div>
                 </li>
@@ -235,61 +235,212 @@
                             <img src="assets/icon/01_service_disenioarq_yellow.png" width="30%" alt="">
                             <img src="assets/icon/01_service_disenioarq.png" width="30%" alt="">
                         </div>
-                        <a href="#projects">
+                        <a href="#" data-toggle="modal" data-target="#arqDesign">
                             <h4>DISEÑO ARQUITECTÓNICO</h4>
                         </a>
-                        <p>Ofrecemos diseños eficientes y de valor que brinden soluciones a diferentes espacios y
-                            optimicen el potencial de los mismos.</p>
-                        <a class="view_btn" href="#projects">¿Qué incluye?</a>
+                        <p>Ofrecemos el servicio de Diseño Arquitectónico: Diseños eficientes y de valor que brindan
+                            soluciones
+                            y optimización de espacios en: <strong>
+                                Viviendas, Salud, Industriales, Laboratorios, Educación, Hoteles ...
+                            </strong>
+                        </p>
+                        <button type="button" class="view_btn" data-toggle="modal" data-target="#arqDesign">
+                            Ver más
+                        </button>
                     </div>
                 </div>
+                <!-- Modal arqdesign-->
+                <div class="modal fade" id="arqDesign" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">DISEÑO ARQUITECTÓNICO</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Ofrecemos el servicio de Diseño Arquitectónico: Diseños eficientes y de valor que
+                                    brindan
+                                    soluciones
+                                    y optimización de espacios en: <strong>
+                                        Viviendas, Salud, Industriales, Laboratorios, Educación, Hoteles, Casinos,
+                                        Oficinas y Retail.
+                                    </strong>
+                                    Nuestra propuesta se enfoca en la eficiencia de los proyectos en cuanto a función y
+                                    uso. Los espacios han sido estudiados y analizados al más mínimo detalle siempre a
+                                    la vanguardia.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Modal -->
                 <div class="service_item">
                     <div class="service_item_inner">
                         <div class="service_icon">
                             <img src="assets/icon/02_service_ejecucion.png" width="30%" alt="">
                             <img src="assets/icon/02_service_ejecucion_white.png" width="30%" alt="">
                         </div>
-                        <a href="#projects">
+                        <a href="#" data-toggle="modal" data-target="#ejecucionProyectos">
                             <h4>EJECUCIÓN DE PROYECTOS</h4>
                         </a>
                         <p>Llevamos a cabo tu <strong>proyecto de forma integral
                             </strong>, utilizando materiales de alta calidad y mano de obra calificada.
-                            <br><strong>ORGANIZAR-CONTROLAR-CONCLUIR</strong></p>
-                        <a class="view_btn" href="#projects">¿Qué incluye?</a>
+                        </p>
+                        <strong style="align-self: flex-start;">ORGANIZAR-CONTROLAR-CONCLUIR</strong>
+                        <br>
+                        <br>
+                        <br>
+                        <button type="button" class="view_btn" data-toggle="modal" data-target="#ejecucionProyectos">
+                            Ver más
+                        </button>
+
+                        <!-- <a class="view_btn" data-toggle="modal" data-target="#ejecucionProyectos" href="#">Ver más</a> -->
                     </div>
                 </div>
+                <!-- Modal ejecucionProyectos-->
+                <div class="modal fade" id="ejecucionProyectos" data-backdrop="static" data-keyboard="false"
+                    tabindex="-1" role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">EJECUCIÓN DE PROYECTOS</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Llevamos a cabo tu <strong>proyecto de forma integral
+                                    </strong>, utilizando materiales de alta calidad y mano de obra calificada.
+                                </p>
+                                <p>
+                                    <strong>Organizar</strong>: los medios humanos y materiales del proyecto para poder
+                                    asignar los recursos adecuados a cada tarea
+                                    <br>
+                                    <strong>Controlar</strong>: para asegurar la adecuada ejecución y el control del
+                                    riesgo.
+                                    <br>
+                                    <strong>Concluir</strong>: para obtener la aceptación y hacer la entrega del
+                                    producto o servicio.
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Modal -->
                 <div class="service_item">
                     <div class="service_item_inner">
                         <div class="service_icon">
                             <img src="assets/icon/03_service_mantenimiento.png" width="30%" alt="">
                             <img src="assets/icon/03_service_mantenimiento_white.png" width="30%" alt="">
                         </div>
-                        <a href="#projects">
+                        <a href="#" data-toggle="modal" data-target="#mantenimiento">
                             <h4>MANTENIMIENTO</h4>
                         </a>
                         <p>Aseguramos cuatro aspectos básicos: la <strong>disponibilidad,</strong> la
                             <strong>fiabilidad</strong> la <strong>vida útil</strong> y el <strong>costo de
                                 exportación</strong> de los equipos e instalaciones, previniendo y consiguiendo así la
                             disminución de incidencias en el proyecto.</p>
-                        <a class="view_btn" href="#projects">¿Qué incluye?</a>
+                        <button type="button" class="view_btn" data-toggle="modal" data-target="#mantenimiento">
+                            Ver más
+                        </button>
                     </div>
                 </div>
+
+                <!-- Modal mantenimiento-->
+                <div class="modal fade" id="mantenimiento" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">MANTENIMIENTO</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Aseguramos cuatro aspectos básicos: la <strong>disponibilidad,</strong> la
+                                    <strong>fiabilidad</strong> la <strong>vida útil</strong> y el <strong>costo de
+                                        exportación</strong> de los equipos e instalaciones, previniendo y consiguiendo
+                                    así la
+                                    disminución de incidencias en el proyecto.</p>
+                                <p> <br>
+                                    -Mantenimiento Preventivo
+                                    <br>
+                                    -Mantenimiento Correctivo
+                                    <br>
+                                    -Mantenimiento Integral
+
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Modal -->
+
                 <div class="service_item">
                     <div class="service_item_inner">
                         <div class="service_icon">
                             <img src="assets/icon/04_service_saneamiento_fisico_legal.png" width="30%" alt="">
                             <img src="assets/icon/04_service_saneamiento_fisico_legal_white.png" width="30%" alt="">
                         </div>
-                        <a href="#projects">
+                        <a href="#" data-toggle="modal" data-target="#saneamiento">
                             <h4>SANEAMIENTO FÍSICO LEGAL</h4>
                         </a>
                         <p>Contamos con personal legal y técnico para brindarle un servicio
                             integral, desde el <strong> diagnóstico y saneamiento</strong> , a fin que su predio se
-                            encuentre limpio de cualquier carga o irregularidad, que lo limite poder
-                            transferirlo.</p>
-                        <a class="view_btn" href="#projects">¿Qué incluye?</a>
+                            encuentre limpio de cualquier carga o irregularidad, que lo limite registrarlo o
+                            transferirlo</p>
+                        <button type="button" class="view_btn" data-toggle="modal" data-target="#saneamiento">
+                            Ver más
+                        </button>
                     </div>
                 </div>
+
+                <!-- Modal ejecucionProyectos-->
+                <div class="modal fade" id="saneamiento" data-backdrop="static" data-keyboard="false" tabindex="-1"
+                    role="dialog" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="staticBackdropLabel">SANEAMIENTO FÍSICO LEGAL</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Contamos con personal legal y técnico para brindarle un servicio
+                                    integral, desde el <strong> diagnóstico y saneamiento</strong> , a fin que su predio
+                                    se
+                                    encuentre limpio de cualquier carga o irregularidad, que lo limite registrarlo o
+                                    transferirlo.</p> <br>
+                                -Regularización de Declaratoria de fábrica
+                                <br>
+                                -Prescripción Adquisitiva de Dominio
+                                <br>
+                                -Rectificación de áreas y linderos
+
+                                </p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Ok</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END Modal -->
+
             </div>
         </div>
         <div id="services" class="right_service">
@@ -317,158 +468,161 @@
                         </div>
                         <ul class="our_project_filter">
                             <li class="active" data-filter="*"><a href="#">Todo</a></li>
-                            <li data-filter=".arqui"><a href="#">Arquitectura</a></li>
-                            <li data-filter=".interior"><a href="#">Interiores</a></li>
                             <li data-filter=".design"><a href="#">Diseño</a></li>
                             <li data-filter=".ejecucion"><a href="#">Ejecución</a></li>
-                            <li data-filter=".saneamiento"><a href="#">Saneamiento</a></li>
-                            <!-- <li data-filter=".isolation"><a href="#">Talado</a></li> -->
-                            <li data-filter=".gestion"><a href="#">Gestión</a></li>
+                            <li data-filter=".saneamiento"><a href="#">Saneamiento legal</a></li>
 
-                            <!-- <li class="active" data-filter="*"><a href="#">Todo</a></li>
-                            <li data-filter=".arquitectura"><a href="#">Arquitectura</a></li>
-                            <li data-filter=".ejecucion"><a href="#">Ejecución</a></li>
-                            <li data-filter=".disenio"><a href="#">Diseño</a></li>
-                            <li data-filter=".saneamiento"><a href="#">Saneamiento</a></li> -->
-
-                            <!-- <li data-filter=".isolation"><a href="#">Talado</a></li> -->
-                            <!-- <li data-filter=".gestion"><a href="#">Gestión</a></li> -->
                         </ul>
                     </div>
                 </div>
                 <div class="col-md-9">
                     <div class="our_project_details">
-                        <div class="project_item  isolation interior">
-                            <img src="assets/img/imagenes/puente-proyecto.jpg" alt="">
+                        <div class="project_item design">
+                            <img src="assets/img/design/koga_fachada.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Casa familia Koga</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Vivienda Familiar
+                                            <br>387.56m2
+                                            <br>La Molina - Lima
+                                            <br>2018
                                         </p>
-                                        <a class="view_btn font_bold" href="#">View Project</a> -->
+                                        <a class="view_btn font_bold" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item arqui design gestion">
-                            <img src="assets/img/imagenes/disenio-casa.jpg" alt="">
+                        <div class="project_item design">
+                            <img src="assets/img/design/kids_gym_fachada.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Kids Gym</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Comercio
+                                            <br>472.05m2
+                                            <br>Santiago de Surco - Lima
+                                            <br>2018
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item   isolation">
-                            <img src="assets/img/imagenes/domo-piramidal.jpg" alt="">
+                        <div class="project_item design">
+                            <img src="assets/img/design/pisac_fachada.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Edificio Pisac</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Comercio/Vivienda Multifamiliar
+                                            <br>1128.54m2
+                                            <br>Palian - Huancayo
+                                            <br>2017
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item design arqui isolation gestion">
-                            <img src="assets/img/imagenes/disenio-casa-1.jpg" alt="">
+                        <div class="project_item design">
+                            <img src="assets/img/design/proarroz_fachada.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Proarroz</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Industrial
+                                            <br>5582.00m2
+                                            <br>Junquillal - Guayaquil
+                                            <br>2016
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item  design interior">
-                            <img src="assets/img/imagenes/disenio-edificio.jpg" alt="">
+                        <div class="project_item design">
+                            <img src="assets/img/design/rapid_nails_fachada.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Rapid Nails</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Tienda Retail
+                                            <br>79.18m2
+                                            <br>Mega Plaza - Independencia
+                                            <br>2019
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item design arqui gestion interior">
-                            <img src="assets/img/imagenes/proyecto-en-construccion.jpg" alt="">
+                        <div class="project_item ejecucion">
+                            <img src="assets/img/ejecucion/certus_interior.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Certus</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Educacion
+                                            <br>S/.234 000.00
+                                            <br>583.00m2
+                                            <br>Santiago de Surco - Lima
+                                            <br>2019
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item design saneamiento">
-                            <img src="assets/img/imagenes/saneamiento.jpg" alt="">
+                        <div class="project_item ejecucion">
+                            <img src="assets/img/ejecucion/rapidnails_interior.jpeg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>Rapid Nails</h4>
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>Comercio
+                                            <br>S/.107 000.00
+                                            <br>79.18m2
+                                            <br>Mega Plaza - Independencia
+                                            <br>2019
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
+
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <div class="project_item design arqui gestion ejecucion">
-                            <img src="assets/img/imagenes/disenio.jpg" alt="">
+                        <div class="project_item ejecucion">
+                            <img src="assets/img/ejecucion/recoleta_campo_basquet.jpg" alt="">
                             <div class="project_hover">
                                 <div class="project_hover_inner">
                                     <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
+                                        <a href="#">
+                                            <h4>COLEGIO RECOLETA</h4>
+
                                         </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                                        <p>
+                                            S/.80 000.00
+                                            <br>75 m2
+                                            <br>La Molina - Lima
+                                            <br>2017
                                         </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="project_item design arqui gestion ejecucion">
-                            <img src="assets/img/imagenes/ejecucion.jpeg" alt="">
-                            <div class="project_hover">
-                                <div class="project_hover_inner">
-                                    <div class="project_hover_content">
-                                        <!-- <a href="#">
-                                            <h4>Jahanara Vila</h4>
-                                        </a>
-                                        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                                        </p>
-                                        <a class="view_btn" href="#">View Project</a> -->
+                                        <a class="view_btn" href="#">View Project</a>
+
                                     </div>
                                 </div>
                             </div>
@@ -517,17 +671,17 @@
                         </div>
                         <div class="form-group">
                             <label for="phone_number" class="col-form-label">Nro Teléfono 📱:</label>
-                            <input type="text" maxlength="9"  name="phone_number" placeholder="ej. 945 123 123" class="form-control phone_number"
-                                id="phone" required>
+                            <input type="text" maxlength="9" name="phone_number" placeholder="ej. 945 123 123"
+                                class="form-control phone_number" id="phone" required>
                         </div>
                         <div class="form-group">
                             <label for="email" class="col-form-label">Correo electrónico 📨:</label>
                             <input type="email" name="email" placeholder="example@mail.com" class="form-control"
                                 id="email" required>
                         </div>
-                       
+
                         <div class="form-group">
-                            <label for="service" c  lass="col-form-label">Pregunta por un servicio 🌇:</label>
+                            <label for="service" c lass="col-form-label">Pregunta por un servicio 🌇:</label>
                             <select name="service" class="form-control">
                                 <option>Servicio que Requiere</option>
                                 <option value="Suspension y Direccion">Diseño arquitectónico
@@ -540,17 +694,18 @@
                         </div>
                         <div class="form-group">
                             <label for="detail" class="col-form-label">Detalle 🖊:</label>
-                           <textarea name="detail" id="detail" class="form-control"></textarea>
+                            <textarea name="detail" id="detail" class="form-control"></textarea>
                         </div>
                         <div class="form-group">
-                                <button type="button" class="btn btn-secondary send-btn" data-dismiss="modal">Cerrar</button>
-                                <input type="submit" class="btn btn-primary send-btn" value="Enviar">
+                            <button type="button" class="btn btn-secondary send-btn"
+                                data-dismiss="modal">Cerrar</button>
+                            <input type="submit" class="btn btn-primary send-btn" value="Enviar">
 
                         </div>
                     </form>
                 </div>
                 <!-- <div class="modal-footer"> -->
-                    <!-- <input type="submit" class="btn btn-primary" value="Enviar"> -->
+                <!-- <input type="submit" class="btn btn-primary" value="Enviar"> -->
 
                 <!-- </div> -->
             </div>
@@ -608,40 +763,44 @@
                     <div class="testimonials_slider owl-carousel">
                         <div class="item">
                             <div class="testi_left">
-                                <blockquote> <br> Mi proyecto quedó con el acabo de detalles profesional que pedí, son
-                                    los mejores en gestionar perfectamente mi proyecto. <br> </blockquote>
+                                <blockquote> <br> La empresa Atelier 570 se destacó por la seriedad, calidad y
+                                    transparencia que demostró durante todo el proceso y avance de ambas construcciones.
+                                    <br> </blockquote>
                                 <a href="#">
-                                    <h4>Ing. Eduardo Clan</h4>
+                                    <h4>Arq. Juan Carlos Coronado Valcor - Gerente de proyectos</h4>
                                 </a>
                             </div>
                             <div class="testi_right">
-                                <img src="assets/img/imagenes/cliente-hombre.jpeg" alt="">
-                            </div>
-                        </div>
-                        <!-- <div class="item">
-                            <div class="testi_left">
-                                <blockquote> <br> Mi proyecto quedó con el acabo de detalles profesional que pedí, son
-                                    los mejores en gestionar perfectamente mi proyecto. <br> </blockquote>
-                                <a href="#">
-                                    <h4>Ing. Eduardo Clan</h4>
-                                </a>
-                            </div>
-                            <div class="testi_right">
-                                <img src="assets/img/imagenes/imagen-nuestros-clientes-lo-dicen..png" alt="">
+                                <img src="assets/img/clientes/JuanCarlosCoronado.jpg" alt="">
                             </div>
                         </div>
                         <div class="item">
                             <div class="testi_left">
-                                <blockquote> <br> Mi proyecto quedó con el acabo de detalles profesional que pedí, son
-                                    los mejores en gestionar perfectamente mi proyecto. <br> </blockquote>
+                                <blockquote> <br> Me complace recomendar esta empresa ya que estoy seguro de que al
+                                    contratar sus servicios estarán obteniendo satisfactoriamente los beneficios
+                                    esperados. <br> </blockquote>
                                 <a href="#">
-                                    <h4>Ing. Eduardo Clan</h4>
+                                    <h4>Arq. Juan Carlos Mondragon Gerente general - Monvela
+                                    </h4>
                                 </a>
                             </div>
                             <div class="testi_right">
-                                <img src="assets/img/imagenes/imagen-nuestros-clientes-lo-dicen..png" alt="">
+                                <img src="assets/img/clientes/JuanCarlosMondragon.jpg" alt="">
                             </div>
-                        </div> -->
+                        </div>
+                       
+                        
+                        <div class="item">
+                            <div class="testi_left">
+                                <blockquote> <br>Grandes Colaboradores en darle mantenimiento preventivo ala infraestructura de nuestras cedes<br> </blockquote>
+                                <a href="#">
+                                    <h4>Arq. Carla Saldivar Choy - Kaisen Medical Care - Área de Mantenimiento</h4>
+                                </a>
+                            </div>
+                            <div class="testi_right">
+                                <img src="assets/img/clientes/CarlaSaldivarChoy.png" alt="">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -750,7 +909,7 @@
                         </div>
                         <div class="media-body">
                             <h4>Correo:</h4>
-                            <h5>vamos@atelier570.com</h5>
+                            <h5>eduardo@atelier570.com</h5>
                         </div>
                     </div>
                 </div>
@@ -771,9 +930,11 @@
                                 tanto en proyectos en la capital de nuestro país, como en diferentes partes del
                                 territorio nacional.</p>
                             <ul>
-                                <li><a href="https://www.facebook.com/Atelier570"><img src="assets/img/iconos/Facebook-06-02.png" alt="logo facebook"></a></li>
-                                <li><a href="#"><img src="assets/img/iconos/YouTube-06.png" alt="logo youtube"></a></li>
-                                <li><a href="#"><img src="assets/img/iconos/Instagram-01.png" alt="logo instagram"></a></li>
+                                <li><a href="https://www.facebook.com/Atelier570"><img
+                                            src="assets/img/iconos/Facebook-06-02.png" alt="logo facebook"></a></li>
+                                <!-- <li><a href="#"><img src="assets/img/iconos/YouTube-06.png" alt="logo youtube"></a></li> -->
+                                <li><a href="https://www.instagram.com/atelier_570/"><img src="assets/img/iconos/Instagram-01.png" alt="logo instagram"></a>
+                                </li>
 
                             </ul>
                         </aside>
@@ -806,7 +967,7 @@
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                     Copyright &copy;
                     <script>document.write(new Date().getFullYear());</script> Todos los derechos reservados. Diseñado
-                    por <a href="https://www.evanzu.com">Evanzu</a> 
+                    por <a href="https://www.evanzu.com">Evanzu</a>
 
                     <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
                 </h4>
@@ -831,7 +992,7 @@
     <script src="vendors/counterup/waypoints.min.js"></script>
     <script src="vendors/counterup/jquery.counterup.min.js"></script>
     <script src="vendors/flex-slider/jquery.flexslider-min.js"></script>
-    
+
     <script src="js/validation.js"></script>
 
     <script src="js/theme.js"></script>
