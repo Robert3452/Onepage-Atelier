@@ -12,11 +12,11 @@ if(isset($_POST["name"]) && !empty($_POST['name']) &&
     $detalle = $_POST['detail'];
     //Datos del correo
     
-    $destinatario="vamos@atelier570.com";
-     $destinatario1='ebt@btyptcontratistas.com';
-    // $ruth ="ruth@evanzu.com";
+    $destinatario="eduardo@atelier570.com";
+    $destinatario1='ebt@btyptcontratistas.com';
+    $ruth ="ruth@evanzu.com";
     $robert ="robert@evanzu.com";
-    $asunto = "Solicitud de cotización:";
+    $asunto = "Solicitud de cotizaci贸n:";
 
     $carta = "De: $nombre \n";
     $carta .= "Correo: $email\n";
@@ -30,8 +30,8 @@ if(isset($_POST["name"]) && !empty($_POST['name']) &&
     
     //Envio de mensaje
     mail($robert, $asunto, $carta);
-    //mail($ruth, $asunto, $carta);
-     mail($destinatario, $asunto, $carta);
+    mail($ruth, $asunto, $carta);
+    mail($destinatario, $asunto, $carta);
     mail($destinatario1, $asunto, $carta);
      header("Status: 200 Moved Permanently");
     header('Location: https://atelier570.com');
